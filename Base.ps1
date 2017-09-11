@@ -1,4 +1,4 @@
-### Gets & Install Chocolatey
+o### Gets & Install Chocolatey
 ### Installs programs I want on ALL Windows Boxes
 ## Chrome
 ## VLC
@@ -22,5 +22,5 @@
 iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
 
 choco install googlechrome vlc malwarebytes atom virtualbox steam cpu-z goggalaxy adobereader adobeair -y
-choc install discord keepass nextcloud-client handbrake github-desktop deluge office365proplus -y
+choco install discord keepass nextcloud-client handbrake github-desktop deluge office365proplus -y
 
