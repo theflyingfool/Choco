@@ -17,10 +17,11 @@ o### Gets & Install Chocolatey
 ## Office 365 Pro
 ## Handbrake
 ## Git / github desktop (Testing github desktop now, might use that permanently)
+## ScummVM
 ### Sets execution policy
 
 iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
 
 choco install googlechrome vlc malwarebytes atom virtualbox steam cpu-z goggalaxy adobereader adobeair -y
-choco install discord keepass nextcloud-client gimp github-desktop deluge office365proplus -y
+choco install discord keepass nextcloud-client gimp github-desktop deluge office365proplus ScummVM -y
 ## Broken Packages --handbrake
