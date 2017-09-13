@@ -3,9 +3,9 @@
 ## Corsair CUE
 ## MSI Afterburner
 ## Scansnap manager
-## Intel Driver Update currently broken!!
+## Intel Driver Update
 
-choco install geforce-experience cue msiafterburner -y
-choco install intel-driver-update-utility scansnapmanager -y
+choco install geforce-experience cue msiafterburner scansnapmanager -y
+choco install intel-driver-update-utility --ignore-checksums  -y
 
 Set-ExecutionPolicy AllSigned
