@@ -1,4 +1,4 @@
-o### Gets & Install Chocolatey
+### Gets & Install Chocolatey
 ### Installs programs I want on ALL Windows Boxes
 ## Chrome
 ## VLC
@@ -16,8 +16,9 @@ o### Gets & Install Chocolatey
 ## Nextcloud Client
 ## Office 365 Pro
 ## Handbrake
-## Git / github desktop (Testing github desktop now, might use that permanently)
+## github desktop
 ## ScummVM
+## Gimp
 ### Sets execution policy
 
 iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
