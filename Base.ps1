@@ -24,6 +24,6 @@
 iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
 
 choco install googlechrome vlc malwarebytes atom virtualbox steam cpu-z goggalaxy adobereader adobeair -y --no-progress
-choco install discord keepass nextcloud-client gimp github-desktop deluge  -y --no-progress
+choco install discord keepass nextcloud-client gimp github-desktop deluge 7zip -y --no-progress
 choco install handbrake ScummVM -y --no-progress
 ## Broken Packages --handbrake
