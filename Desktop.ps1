@@ -5,7 +5,7 @@
 ## Scansnap manager
 ## Intel Driver Update
 
-choco install geforce-experience cue msiafterburner scansnapmanager -y
+choco install geforce-experience cue msiafterburner scansnapmanager hwinfo -y
 choco install intel-driver-update-utility --ignore-checksums  -y
 choco install intel-network-drivers-win10 -y
 
