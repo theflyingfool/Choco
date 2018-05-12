@@ -4,26 +4,23 @@
 ## VLC
 ## MalwareBytes
 ## atom.io
-## Virtual Box
 ## Steam
 ## CPU-Z
 ## GoG Galaxy (choco doesn't seem to be updated but program self updates)
-## AdobeAir
 ## Adobe Reader
 ## Discord
-## Deluge
-## Keepass
-## Nextcloud Client
-## Office 365 Pro
-## Handbrake
-## github desktop
-## ScummVM
 ## Gimp
+## github
+## Deluge
+## 7zip
+## Handbrake
+## Office 365 Pro
 ### Sets execution policy
 
 iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
 
-choco install googlechrome vlc malwarebytes atom virtualbox steam cpu-z goggalaxy adobereader adobeair -y --no-progress
-choco install discord keepass nextcloud-client gimp github-desktop deluge 7zip -y --no-progress
-choco install handbrake ScummVM -y --no-progress
-## Broken Packages --handbrake
+choco install googlechrome vlc malwarebytes atom steam cpu-z goggalaxy adobereader -y
+choco install discord gimp github-desktop deluge 7zip -y
+choco install handbrake office365proplus -y
+
+choco install google-drive-file-stream
