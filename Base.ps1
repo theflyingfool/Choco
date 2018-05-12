@@ -15,12 +15,13 @@
 ## 7zip
 ## Handbrake
 ## Office 365 Pro
+## Firefox
 ### Sets execution policy
 
 iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
 
 choco install googlechrome vlc malwarebytes atom steam cpu-z goggalaxy adobereader -y
 choco install discord gimp github-desktop deluge 7zip -y
-choco install handbrake office365proplus -y
+choco install handbrake office365proplus Firefox -y
 
 choco install google-drive-file-stream
